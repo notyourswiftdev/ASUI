@@ -10,6 +10,7 @@
 		1A8FE04D2413FA1B0031FC0F /* AUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8FE0432413FA1A0031FC0F /* AUI.framework */; };
 		1A8FE0522413FA1B0031FC0F /* AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FE0512413FA1B0031FC0F /* AUITests.swift */; };
 		1A8FE0542413FA1B0031FC0F /* AUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8FE0462413FA1A0031FC0F /* AUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8FE05E241406FF0031FC0F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FE05D241406FF0031FC0F /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		1A8FE04C2413FA1B0031FC0F /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8FE0512413FA1B0031FC0F /* AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUITests.swift; sourceTree = "<group>"; };
 		1A8FE0532413FA1B0031FC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8FE05D241406FF0031FC0F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				1A8FE0462413FA1A0031FC0F /* AUI.h */,
 				1A8FE0472413FA1A0031FC0F /* Info.plist */,
+				1A8FE05D241406FF0031FC0F /* CustomButton.swift */,
 			);
 			path = AUI;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					1A8FE0422413FA1A0031FC0F = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					1A8FE04B2413FA1B0031FC0F = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -195,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8FE05E241406FF0031FC0F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		1A8FE0582413FA1B0031FC0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AaronCleveland.AUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		1A8FE0592413FA1B0031FC0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
@@ -388,6 +396,7 @@
 		1A8FE05B2413FA1B0031FC0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
 				INFOPLIST_FILE = AUITests/Info.plist;
@@ -406,6 +415,7 @@
 		1A8FE05C2413FA1B0031FC0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
 				INFOPLIST_FILE = AUITests/Info.plist;
