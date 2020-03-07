@@ -1,6 +1,6 @@
 //
-//  AUITests.swift
-//  AUITests
+//  ASUITests.swift
+//  ASUITests
 //
 //  Created by Aaron Cleveland on 3/7/20.
 //  Copyright © 2020 Aaron Cleveland. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import AUI
 
-class AUITests: XCTestCase {
+class ASUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

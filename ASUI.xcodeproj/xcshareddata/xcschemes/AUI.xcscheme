@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1A8FE0422413FA1A0031FC0F"
-               BuildableName = "AUI.framework"
-               BlueprintName = "AUI"
-               ReferencedContainer = "container:AUI.xcodeproj">
+               BuildableName = "ASUI.framework"
+               BlueprintName = "ASUI"
+               ReferencedContainer = "container:ASUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1A8FE04B2413FA1B0031FC0F"
-               BuildableName = "AUITests.xctest"
-               BlueprintName = "AUITests"
-               ReferencedContainer = "container:AUI.xcodeproj">
+               BuildableName = "ASUITests.xctest"
+               BlueprintName = "ASUITests"
+               ReferencedContainer = "container:ASUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1A8FE0422413FA1A0031FC0F"
-            BuildableName = "AUI.framework"
-            BlueprintName = "AUI"
-            ReferencedContainer = "container:AUI.xcodeproj">
+            BuildableName = "ASUI.framework"
+            BlueprintName = "ASUI"
+            ReferencedContainer = "container:ASUI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

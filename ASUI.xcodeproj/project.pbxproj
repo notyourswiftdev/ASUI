@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A8FE04D2413FA1B0031FC0F /* AUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8FE0432413FA1A0031FC0F /* AUI.framework */; };
+		1A8FE04D2413FA1B0031FC0F /* ASUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8FE0432413FA1A0031FC0F /* ASUI.framework */; };
 		1A8FE0522413FA1B0031FC0F /* AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FE0512413FA1B0031FC0F /* AUITests.swift */; };
-		1A8FE0542413FA1B0031FC0F /* AUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8FE0462413FA1A0031FC0F /* AUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8FE0542413FA1B0031FC0F /* ASUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8FE0462413FA1A0031FC0F /* ASUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8FE05E241406FF0031FC0F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FE05D241406FF0031FC0F /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A8FE0432413FA1A0031FC0F /* AUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A8FE0462413FA1A0031FC0F /* AUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUI.h; sourceTree = "<group>"; };
+		1A8FE0432413FA1A0031FC0F /* ASUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8FE0462413FA1A0031FC0F /* ASUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASUI.h; sourceTree = "<group>"; };
 		1A8FE0472413FA1A0031FC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A8FE04C2413FA1B0031FC0F /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8FE04C2413FA1B0031FC0F /* ASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8FE0512413FA1B0031FC0F /* AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUITests.swift; sourceTree = "<group>"; };
 		1A8FE0532413FA1B0031FC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8FE05D241406FF0031FC0F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8FE04D2413FA1B0031FC0F /* AUI.framework in Frameworks */,
+				1A8FE04D2413FA1B0031FC0F /* ASUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 		1A8FE0392413FA1A0031FC0F = {
 			isa = PBXGroup;
 			children = (
-				1A8FE0452413FA1A0031FC0F /* AUI */,
-				1A8FE0502413FA1B0031FC0F /* AUITests */,
+				1A8FE0452413FA1A0031FC0F /* ASUI */,
+				1A8FE0502413FA1B0031FC0F /* ASUITests */,
 				1A8FE0442413FA1A0031FC0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,29 +64,29 @@
 		1A8FE0442413FA1A0031FC0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A8FE0432413FA1A0031FC0F /* AUI.framework */,
-				1A8FE04C2413FA1B0031FC0F /* AUITests.xctest */,
+				1A8FE0432413FA1A0031FC0F /* ASUI.framework */,
+				1A8FE04C2413FA1B0031FC0F /* ASUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A8FE0452413FA1A0031FC0F /* AUI */ = {
+		1A8FE0452413FA1A0031FC0F /* ASUI */ = {
 			isa = PBXGroup;
 			children = (
-				1A8FE0462413FA1A0031FC0F /* AUI.h */,
+				1A8FE0462413FA1A0031FC0F /* ASUI.h */,
 				1A8FE0472413FA1A0031FC0F /* Info.plist */,
 				1A8FE05D241406FF0031FC0F /* CustomButton.swift */,
 			);
-			path = AUI;
+			path = ASUI;
 			sourceTree = "<group>";
 		};
-		1A8FE0502413FA1B0031FC0F /* AUITests */ = {
+		1A8FE0502413FA1B0031FC0F /* ASUITests */ = {
 			isa = PBXGroup;
 			children = (
 				1A8FE0512413FA1B0031FC0F /* AUITests.swift */,
 				1A8FE0532413FA1B0031FC0F /* Info.plist */,
 			);
-			path = AUITests;
+			path = ASUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,16 +96,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8FE0542413FA1B0031FC0F /* AUI.h in Headers */,
+				1A8FE0542413FA1B0031FC0F /* ASUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A8FE0422413FA1A0031FC0F /* AUI */ = {
+		1A8FE0422413FA1A0031FC0F /* ASUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A8FE0572413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "AUI" */;
+			buildConfigurationList = 1A8FE0572413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "ASUI" */;
 			buildPhases = (
 				1A8FE03E2413FA1A0031FC0F /* Headers */,
 				1A8FE03F2413FA1A0031FC0F /* Sources */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = AUI;
+			name = ASUI;
 			productName = AUI;
-			productReference = 1A8FE0432413FA1A0031FC0F /* AUI.framework */;
+			productReference = 1A8FE0432413FA1A0031FC0F /* ASUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1A8FE04B2413FA1B0031FC0F /* AUITests */ = {
+		1A8FE04B2413FA1B0031FC0F /* ASUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A8FE05A2413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "AUITests" */;
+			buildConfigurationList = 1A8FE05A2413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "ASUITests" */;
 			buildPhases = (
 				1A8FE0482413FA1B0031FC0F /* Sources */,
 				1A8FE0492413FA1B0031FC0F /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				1A8FE04F2413FA1B0031FC0F /* PBXTargetDependency */,
 			);
-			name = AUITests;
+			name = ASUITests;
 			productName = AUITests;
-			productReference = 1A8FE04C2413FA1B0031FC0F /* AUITests.xctest */;
+			productReference = 1A8FE04C2413FA1B0031FC0F /* ASUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1A8FE03D2413FA1A0031FC0F /* Build configuration list for PBXProject "AUI" */;
+			buildConfigurationList = 1A8FE03D2413FA1A0031FC0F /* Build configuration list for PBXProject "ASUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A8FE0422413FA1A0031FC0F /* AUI */,
-				1A8FE04B2413FA1B0031FC0F /* AUITests */,
+				1A8FE0422413FA1A0031FC0F /* ASUI */,
+				1A8FE04B2413FA1B0031FC0F /* ASUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 /* Begin PBXTargetDependency section */
 		1A8FE04F2413FA1B0031FC0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A8FE0422413FA1A0031FC0F /* AUI */;
+			target = 1A8FE0422413FA1A0031FC0F /* ASUI */;
 			targetProxy = 1A8FE04E2413FA1B0031FC0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -352,7 +352,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AUI/Info.plist;
+				INFOPLIST_FILE = ASUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +378,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AUI/Info.plist;
+				INFOPLIST_FILE = ASUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A8FE03D2413FA1A0031FC0F /* Build configuration list for PBXProject "AUI" */ = {
+		1A8FE03D2413FA1A0031FC0F /* Build configuration list for PBXProject "ASUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8FE0552413FA1B0031FC0F /* Debug */,
@@ -443,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A8FE0572413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "AUI" */ = {
+		1A8FE0572413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "ASUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8FE0582413FA1B0031FC0F /* Debug */,
@@ -452,7 +452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A8FE05A2413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "AUITests" */ = {
+		1A8FE05A2413FA1B0031FC0F /* Build configuration list for PBXNativeTarget "ASUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A8FE05B2413FA1B0031FC0F /* Debug */,
