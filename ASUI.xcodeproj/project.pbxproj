@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4C7C60241448F00084D057 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C7C5F241448F00084D057 /* CustomTextField.swift */; };
+		1A4C7C62241449140084D057 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C7C61241449140084D057 /* CustomUIView.swift */; };
+		1A4C7C64241449430084D057 /* CustomUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C7C63241449430084D057 /* CustomUIImageView.swift */; };
 		1A8FE04D2413FA1B0031FC0F /* ASUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8FE0432413FA1A0031FC0F /* ASUI.framework */; };
 		1A8FE0522413FA1B0031FC0F /* AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8FE0512413FA1B0031FC0F /* AUITests.swift */; };
 		1A8FE0542413FA1B0031FC0F /* ASUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8FE0462413FA1A0031FC0F /* ASUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4C7C5F241448F00084D057 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1A4C7C61241449140084D057 /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		1A4C7C63241449430084D057 /* CustomUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIImageView.swift; sourceTree = "<group>"; };
 		1A8FE0432413FA1A0031FC0F /* ASUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8FE0462413FA1A0031FC0F /* ASUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASUI.h; sourceTree = "<group>"; };
 		1A8FE0472413FA1A0031FC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +82,9 @@
 				1A8FE0462413FA1A0031FC0F /* ASUI.h */,
 				1A8FE0472413FA1A0031FC0F /* Info.plist */,
 				1A8FE05D241406FF0031FC0F /* CustomButton.swift */,
+				1A4C7C5F241448F00084D057 /* CustomTextField.swift */,
+				1A4C7C61241449140084D057 /* CustomUIView.swift */,
+				1A4C7C63241449430084D057 /* CustomUIImageView.swift */,
 			);
 			path = ASUI;
 			sourceTree = "<group>";
@@ -199,6 +208,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4C7C60241448F00084D057 /* CustomTextField.swift in Sources */,
+				1A4C7C64241449430084D057 /* CustomUIImageView.swift in Sources */,
+				1A4C7C62241449140084D057 /* CustomUIView.swift in Sources */,
 				1A8FE05E241406FF0031FC0F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
