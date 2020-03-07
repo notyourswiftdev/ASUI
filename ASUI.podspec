@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "AUI"
+  spec.name         = "ASUI"
   spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods UI Library written in Swift."
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   This CocoaPods library helps you build out custom UI within storyboards.
                    DESC
 
-  spec.homepage     = "https://github.com/amclv/AUI"
+  spec.homepage     = "https://github.com/amclv/ASUI"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Aaron Cleveland" => "toscleveland@gmail.com" }
   spec.social_media_url   = "https://twitter.com/amclv0"
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.2"
   spec.swift_version = "5.0"
 
-  spec.source       = { :git => "https://github.com/amclv/AUI.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/amclv/ASUI.git", :tag => "#{spec.version}" }
   spec.source_files  = "AUI/**/*.{h,m,swift}"
 
 end
