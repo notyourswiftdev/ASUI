@@ -25,6 +25,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.source       = { :git => "https://github.com/amclv/ASUI.git", :tag => "#{spec.version}" }
-  spec.source_files  = "AUI/**/*.{h,m,swift}"
+  spec.source_files  = "ASUI/**/*.{h,m,swift}"
 
 end
