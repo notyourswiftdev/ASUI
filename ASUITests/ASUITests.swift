@@ -7,9 +7,10 @@
 //
 
 import XCTest
-@testable import AUI
+@testable import ASUI
 
 class ASUITests: XCTestCase {
+    let button = CustomButtons(frame: CGRect(x: 50, y: 50, width: 50, height: 50))
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,5 +31,19 @@ class ASUITests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
+    func testButtonBorderColor() {
+        button.borderColor = .blue
+        XCTAssertEqual(button.borderColor.cgColor, button.layer.borderColor)
+    }
+    
+    func testButtonBorderWidth() {
+        button.borderWidth = 5
+        XCTAssertEqual(button.borderWidth, button.layer.borderWidth)
+    }
+    
+    func testButtonCornerRadius() {
+        button.cornerRadius = 5
+        XCTAssertEqual(button.cornerRadius, button.layer.cornerRadius)
+    }
 }
