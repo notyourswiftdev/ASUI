@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ASUI"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A CocoaPods UI Library written in Swift."
 
   spec.description  = <<-DESC
