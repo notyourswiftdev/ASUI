@@ -25,7 +25,7 @@ import UIKit
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
-            layer.masksToBounds = true
+            layer.masksToBounds = false
         }
     }
     
@@ -53,7 +53,7 @@ import UIKit
     @IBInspectable var shadowRadius: CGFloat = 0.0 {
         didSet {
             layer.shadowRadius = shadowRadius
-            layer.masksToBounds = true
+            layer.masksToBounds = false
         }
     }
 }
