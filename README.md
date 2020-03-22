@@ -18,7 +18,7 @@ instructions, visit their website. To integrate Alamofire into your Xcode projec
 
 your `Podfile`:
 
-    pod 'Alamofire', '~> 0.0.7'
+    pod 'ASUI'
 
 
 <h2>F.A.Q</h2>
