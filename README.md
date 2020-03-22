@@ -1,10 +1,11 @@
 
 <div  align="center">
-<h1>AwesomeSauceUI</h1>
+<h1>ASUI</h1>
 <img  alt="GitHub"  src="https://img.shields.io/github/license/amclv/ASUI">
 <img  alt="Cocoapods platforms"  src="https://img.shields.io/cocoapods/p/ASUI">
 <img  alt="Cocoapods"  src="https://img.shields.io/cocoapods/v/ASUI">
-<h4>AwesomeSauceUI is a framework that allows customizable; Buttons, TextFields, UIImageView and UIView.</h4>
+<img  alt="Cocoapods" src="https://img.shields.io/github/contributors/amclv/ASUI">
+<h4>ASUI is a framework that allows easy UI customizable storyboards.</h4>
 </div>
 
 <div>
@@ -20,7 +21,10 @@ your `Podfile`:
     pod 'Alamofire', '~> 0.0.7'
 
 
-<h2>FAQ</h2>
+<h2>F.A.Q</h2>
 <h3>What's the origin of the name ASUI?</h3>
 ASUI is named after AwesomeSauceUI
+
+<h2>About</h2>
+ASUI gives the user the ability to handle custom properties within the attributes inspector.
 </div>

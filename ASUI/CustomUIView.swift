@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-@IBDesignable public class CustomUIView: UIView {
+@IBDesignable public class CustomUIView: UIView, CustomFields {
     @IBInspectable var borderColor: UIColor = .clear {
         didSet {
             layer.borderColor = borderColor.cgColor

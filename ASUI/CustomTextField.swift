@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-@IBDesignable public class CustomTextFields: UITextField {
+@IBDesignable public class CustomTextFields: UITextField, CustomFields {
     @IBInspectable var borderColor: UIColor = .clear {
         didSet {
             layer.borderColor = borderColor.cgColor

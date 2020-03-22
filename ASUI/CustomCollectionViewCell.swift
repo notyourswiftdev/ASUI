@@ -1,15 +1,23 @@
 //
-//  CustomButton.swift
-//  AUI
+//  CustomCollectionViewCell.swift
+//  ASUI
 //
-//  Created by Aaron Cleveland on 3/7/20.
-//  Copyright © 2020 Aaron Cleveland. All rights reserved.
+//  Created by Kenneth Dubroff on 3/21/20.
+//  Copyright © 2020 Kenneth Dubroff. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-@IBDesignable public class CustomButtons: UIButton, CustomFields {
+//=======================
+// MARK: - Base Implementation
+///Base CustomCollectionViewCell - all properties are IBInspectable
+
+@IBDesignable class CustomCollectionViewCell: UICollectionViewCell, CustomFields {
+    
+    //=======================
+    // MARK: - Border
+    
     @IBInspectable var borderColor: UIColor = .clear {
         didSet {
             layer.borderColor = borderColor.cgColor
@@ -22,12 +30,18 @@ import UIKit
         }
     }
     
+    //=======================
+    // MARK: - Corners
+    
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
             layer.masksToBounds = false
         }
     }
+    
+    //=======================
+    // MARK: - Shadow
     
     @IBInspectable var shadowOpacity: Float {
         get {
