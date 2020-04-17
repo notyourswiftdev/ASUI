@@ -5,6 +5,7 @@
 <img  alt="Cocoapods platforms"  src="https://img.shields.io/cocoapods/p/ASUI">
 <img  alt="Cocoapods"  src="https://img.shields.io/cocoapods/v/ASUI">
 <img  alt="Cocoapods" src="https://img.shields.io/github/contributors/amclv/ASUI">
+<img alt="Travis (.org)" src="https://img.shields.io/travis/amclv/ASUI">
 <h4>ASUI is a framework that allows easy UI customizable storyboards.</h4>
 </div>
 
