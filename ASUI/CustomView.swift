@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-protocol CustomFields: UIView {
+protocol CustomField: UIView {
     var borderColor: UIColor { get set }
     var borderWidth: CGFloat { get set }
     var cornerRadius: CGFloat { get set }
