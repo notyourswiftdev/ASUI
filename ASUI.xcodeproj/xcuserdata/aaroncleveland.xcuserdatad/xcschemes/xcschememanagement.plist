@@ -4,19 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ASUI.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>ASUIExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>AUI.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1A4C7C6824144DC30084D057</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1A8FE0422413FA1A0031FC0F</key>
 		<dict>
 			<key>primary</key>
